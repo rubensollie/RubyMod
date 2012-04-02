@@ -1,0 +1,1 @@
+cmd_drivers/onedram/onedram.ko := /root/CodeSourcery/Sourcery_G++_Lite/bin/arm-none-eabi-ld -EL -r  -T /root/Bureaublad/g3kernelfroyo/Kernel/scripts/module-common.lds --build-id -o drivers/onedram/onedram.ko drivers/onedram/onedram.o drivers/onedram/onedram.mod.o
