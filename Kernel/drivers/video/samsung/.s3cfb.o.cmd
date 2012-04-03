@@ -1,4 +1,4 @@
-cmd_drivers/video/samsung/s3cfb.o := /root/CodeSourcery/Sourcery_G++_Lite/bin/arm-none-eabi-gcc -Wp,-MD,drivers/video/samsung/.s3cfb.o.d  -nostdinc -isystem /root/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/include -Iinclude  -I/root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include -include include/linux/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-s5p6442/include -Iarch/arm/plat-s5p64xx/include -Iarch/arm/plat-s5p/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -O2 -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -funwind-tables -D__LINUX_ARM_ARCH__=6 -march=armv6k -mtune=arm1136j-s -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -pg -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fno-dwarf2-cfi-asm -fconserve-stack -DDEBUG   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(s3cfb)"  -D"KBUILD_MODNAME=KBUILD_STR(s3cfb)"  -c -o drivers/video/samsung/s3cfb.o drivers/video/samsung/s3cfb.c
+cmd_drivers/video/samsung/s3cfb.o := /root/CodeSourcery/Sourcery_G++_Lite/bin/arm-none-eabi-gcc -Wp,-MD,drivers/video/samsung/.s3cfb.o.d  -nostdinc -isystem /root/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/include -Iinclude  -I/root/Bureaublad/RubyMod/Kernel/arch/arm/include -include include/linux/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-s5p6442/include -Iarch/arm/plat-s5p64xx/include -Iarch/arm/plat-s5p/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -funwind-tables -D__LINUX_ARM_ARCH__=6 -march=armv6k -mtune=arm1136j-s -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -pg -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fno-dwarf2-cfi-asm -fconserve-stack -DDEBUG   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(s3cfb)"  -D"KBUILD_MODNAME=KBUILD_STR(s3cfb)"  -c -o drivers/video/samsung/s3cfb.o drivers/video/samsung/s3cfb.c
 
 deps_drivers/video/samsung/s3cfb.o := \
   drivers/video/samsung/s3cfb.c \
@@ -47,29 +47,29 @@ deps_drivers/video/samsung/s3cfb.o := \
     $(wildcard include/config/lbdaf.h) \
     $(wildcard include/config/phys/addr/t/64bit.h) \
     $(wildcard include/config/64bit.h) \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/types.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/types.h \
   include/asm-generic/int-ll64.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/bitsperlong.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/bitsperlong.h \
   include/asm-generic/bitsperlong.h \
   include/linux/posix_types.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/posix_types.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/processor.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/posix_types.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/processor.h \
     $(wildcard include/config/mmu.h) \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/ptrace.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/ptrace.h \
     $(wildcard include/config/cpu/endian/be8.h) \
     $(wildcard include/config/arm/thumb.h) \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/hwcap.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/cache.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/hwcap.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/cache.h \
     $(wildcard include/config/arm/l1/cache/shift.h) \
     $(wildcard include/config/aeabi.h) \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/system.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/system.h \
     $(wildcard include/config/cpu/xsc3.h) \
     $(wildcard include/config/cpu/fa526.h) \
     $(wildcard include/config/cpu/sa1100.h) \
     $(wildcard include/config/cpu/sa110.h) \
     $(wildcard include/config/cpu/32v6k.h) \
   include/linux/linkage.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/linkage.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/linkage.h \
   include/linux/irqflags.h \
     $(wildcard include/config/trace/irqflags.h) \
     $(wildcard include/config/irqsoff/tracer.h) \
@@ -77,10 +77,10 @@ deps_drivers/video/samsung/s3cfb.o := \
     $(wildcard include/config/trace/irqflags/support.h) \
     $(wildcard include/config/x86.h) \
   include/linux/typecheck.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/irqflags.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/irqflags.h \
   include/asm-generic/cmpxchg-local.h \
   include/linux/stat.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/stat.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/stat.h \
   include/linux/time.h \
     $(wildcard include/config/arch/uses/gettimeoffset.h) \
   include/linux/cache.h \
@@ -98,7 +98,7 @@ deps_drivers/video/samsung/s3cfb.o := \
     $(wildcard include/config/generic/find/first/bit.h) \
     $(wildcard include/config/generic/find/last/bit.h) \
     $(wildcard include/config/generic/find/next/bit.h) \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/bitops.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/bitops.h \
   include/asm-generic/bitops/non-atomic.h \
   include/asm-generic/bitops/fls64.h \
   include/asm-generic/bitops/sched.h \
@@ -109,20 +109,20 @@ deps_drivers/video/samsung/s3cfb.o := \
     $(wildcard include/config/arch/has/ilog2/u64.h) \
   include/linux/ratelimit.h \
   include/linux/param.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/param.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/param.h \
     $(wildcard include/config/hz.h) \
   include/linux/dynamic_debug.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/byteorder.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
   include/linux/swab.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/swab.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/swab.h \
   include/linux/byteorder/generic.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/bug.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/bug.h \
     $(wildcard include/config/bug.h) \
     $(wildcard include/config/debug/bugverbose.h) \
   include/asm-generic/bug.h \
     $(wildcard include/config/generic/bug/relative/pointers.h) \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/div64.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/div64.h \
   include/linux/seqlock.h \
   include/linux/spinlock.h \
     $(wildcard include/config/debug/spinlock.h) \
@@ -134,12 +134,12 @@ deps_drivers/video/samsung/s3cfb.o := \
     $(wildcard include/config/preempt/notifiers.h) \
   include/linux/thread_info.h \
     $(wildcard include/config/compat.h) \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/thread_info.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/thread_info.h \
     $(wildcard include/config/arm/thumbee.h) \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/fpstate.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/fpstate.h \
     $(wildcard include/config/vfpv3.h) \
     $(wildcard include/config/iwmmxt.h) \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/domain.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/domain.h \
     $(wildcard include/config/io/36.h) \
   include/linux/stringify.h \
   include/linux/bottom_half.h \
@@ -150,7 +150,7 @@ deps_drivers/video/samsung/s3cfb.o := \
     $(wildcard include/config/lock/stat.h) \
     $(wildcard include/config/generic/hardirqs.h) \
   include/linux/spinlock_up.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/atomic.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/atomic.h \
   include/asm-generic/atomic-long.h \
   include/linux/spinlock_api_smp.h \
   include/linux/math64.h \
@@ -179,7 +179,7 @@ deps_drivers/video/samsung/s3cfb.o := \
     $(wildcard include/config/holes/in/zone.h) \
     $(wildcard include/config/arch/has/holes/memorymodel.h) \
   include/linux/wait.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/current.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/current.h \
   include/linux/threads.h \
     $(wildcard include/config/nr/cpus.h) \
     $(wildcard include/config/base/small.h) \
@@ -191,12 +191,12 @@ deps_drivers/video/samsung/s3cfb.o := \
   include/linux/bitmap.h \
   include/linux/string.h \
     $(wildcard include/config/binary/printf.h) \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/string.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/string.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/hugetlb/page.h) \
     $(wildcard include/config/hugetlb/page/size/variable.h) \
   include/linux/bounds.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/page.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/page.h \
     $(wildcard include/config/cpu/copy/v3.h) \
     $(wildcard include/config/cpu/copy/v4wt.h) \
     $(wildcard include/config/cpu/copy/v4wb.h) \
@@ -204,7 +204,7 @@ deps_drivers/video/samsung/s3cfb.o := \
     $(wildcard include/config/cpu/copy/fa.h) \
     $(wildcard include/config/cpu/xscale.h) \
     $(wildcard include/config/cpu/copy/v6.h) \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/glue.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/glue.h \
     $(wildcard include/config/cpu/arm610.h) \
     $(wildcard include/config/cpu/arm710.h) \
     $(wildcard include/config/cpu/abrt/lv4t.h) \
@@ -217,14 +217,14 @@ deps_drivers/video/samsung/s3cfb.o := \
     $(wildcard include/config/cpu/pabrt/legacy.h) \
     $(wildcard include/config/cpu/pabrt/v6.h) \
     $(wildcard include/config/cpu/pabrt/v7.h) \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/memory.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/memory.h \
     $(wildcard include/config/page/offset.h) \
     $(wildcard include/config/thumb2/kernel.h) \
     $(wildcard include/config/dram/size.h) \
     $(wildcard include/config/dram/base.h) \
   include/linux/const.h \
   arch/arm/mach-s5p6442/include/mach/memory.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/sizes.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/sizes.h \
   include/asm-generic/memory_model.h \
     $(wildcard include/config/sparsemem/vmemmap.h) \
   include/asm-generic/getorder.h \
@@ -233,7 +233,7 @@ deps_drivers/video/samsung/s3cfb.o := \
     $(wildcard include/config/memory/hotremove.h) \
   include/linux/notifier.h \
   include/linux/errno.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/errno.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/errno.h \
   include/asm-generic/errno.h \
   include/asm-generic/errno-base.h \
   include/linux/mutex.h \
@@ -243,7 +243,7 @@ deps_drivers/video/samsung/s3cfb.o := \
     $(wildcard include/config/rwsem/generic/spinlock.h) \
   include/linux/rwsem-spinlock.h \
   include/linux/srcu.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/mmzone.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/mmzone.h \
   include/linux/topology.h \
     $(wildcard include/config/sched/smt.h) \
     $(wildcard include/config/sched/mc.h) \
@@ -254,14 +254,14 @@ deps_drivers/video/samsung/s3cfb.o := \
     $(wildcard include/config/disable/obsolete/cpumask/functions.h) \
   include/linux/smp.h \
     $(wildcard include/config/use/generic/smp/helpers.h) \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/topology.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/topology.h \
   include/asm-generic/topology.h \
   include/linux/mmdebug.h \
     $(wildcard include/config/debug/virtual.h) \
   include/linux/elf.h \
   include/linux/elf-em.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/elf.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/user.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/elf.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/user.h \
   include/linux/kobject.h \
   include/linux/sysfs.h \
   include/linux/kref.h \
@@ -276,7 +276,7 @@ deps_drivers/video/samsung/s3cfb.o := \
   include/linux/completion.h \
   include/linux/rcutree.h \
     $(wildcard include/config/no/hz.h) \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/local.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/local.h \
   include/asm-generic/local.h \
   include/linux/percpu.h \
     $(wildcard include/config/have/legacy/per/cpu/area.h) \
@@ -302,7 +302,7 @@ deps_drivers/video/samsung/s3cfb.o := \
     $(wildcard include/config/ktime/scalar.h) \
   include/linux/jiffies.h \
   include/linux/timex.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/timex.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/timex.h \
   arch/arm/mach-s5p6442/include/mach/timex.h \
   include/linux/debugobjects.h \
     $(wildcard include/config/debug/objects/free.h) \
@@ -311,16 +311,16 @@ deps_drivers/video/samsung/s3cfb.o := \
   include/trace/define_trace.h \
   include/linux/kmemleak.h \
   include/linux/pfn.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/percpu.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/percpu.h \
   include/asm-generic/percpu.h \
   include/linux/percpu-defs.h \
     $(wildcard include/config/debug/force/weak/per/cpu.h) \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/module.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/module.h \
     $(wildcard include/config/arm/unwind.h) \
   include/trace/events/module.h \
   include/linux/clk.h \
   include/linux/poll.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/poll.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/poll.h \
   include/asm-generic/poll.h \
   include/linux/fs.h \
     $(wildcard include/config/dnotify.h) \
@@ -338,7 +338,7 @@ deps_drivers/video/samsung/s3cfb.o := \
     $(wildcard include/config/migration.h) \
   include/linux/limits.h \
   include/linux/ioctl.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/ioctl.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/ioctl.h \
   include/asm-generic/ioctl.h \
   include/linux/kdev_t.h \
   include/linux/dcache.h \
@@ -361,11 +361,11 @@ deps_drivers/video/samsung/s3cfb.o := \
   include/linux/sunrpc/msg_prot.h \
   include/linux/inet.h \
   include/linux/fcntl.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/fcntl.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/fcntl.h \
   include/asm-generic/fcntl.h \
   include/linux/err.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/uaccess.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/unified.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/uaccess.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/unified.h \
     $(wildcard include/config/arm/asm/unified.h) \
   include/linux/irq.h \
     $(wildcard include/config/s390.h) \
@@ -380,12 +380,12 @@ deps_drivers/video/samsung/s3cfb.o := \
     $(wildcard include/config/cpumasks/offstack.h) \
   include/linux/irqreturn.h \
   include/linux/irqnr.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/irq.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/irq.h \
   arch/arm/mach-s5p6442/include/mach/irqs.h \
   arch/arm/plat-s5p64xx/include/plat/irqs.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/irq_regs.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/irq_regs.h \
   include/asm-generic/irq_regs.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/hw_irq.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/hw_irq.h \
   include/linux/mm.h \
     $(wildcard include/config/sysctl.h) \
     $(wildcard include/config/stack/growsup.h) \
@@ -402,16 +402,16 @@ deps_drivers/video/samsung/s3cfb.o := \
     $(wildcard include/config/mm/owner.h) \
     $(wildcard include/config/mmu/notifier.h) \
   include/linux/auxvec.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/auxvec.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/auxvec.h \
   include/linux/page-debug-flags.h \
     $(wildcard include/config/page/poisoning.h) \
     $(wildcard include/config/page/debug/something/else.h) \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/mmu.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/mmu.h \
     $(wildcard include/config/cpu/has/asid.h) \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/pgtable.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/pgtable.h \
     $(wildcard include/config/highpte.h) \
   include/asm-generic/4level-fixup.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/proc-fns.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/proc-fns.h \
     $(wildcard include/config/cpu/32.h) \
     $(wildcard include/config/cpu/arm7tdmi.h) \
     $(wildcard include/config/cpu/arm720t.h) \
@@ -431,9 +431,9 @@ deps_drivers/video/samsung/s3cfb.o := \
     $(wildcard include/config/cpu/feroceon.h) \
     $(wildcard include/config/cpu/v6.h) \
     $(wildcard include/config/cpu/v7.h) \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/cpu-single.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/cpu-single.h \
   arch/arm/mach-s5p6442/include/mach/vmalloc.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/pgtable-hwdef.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/pgtable-hwdef.h \
   include/asm-generic/pgtable.h \
   include/linux/page-flags.h \
     $(wildcard include/config/pageflags/extended.h) \
@@ -463,7 +463,7 @@ deps_drivers/video/samsung/s3cfb.o := \
   include/linux/pm.h \
     $(wildcard include/config/pm/sleep.h) \
     $(wildcard include/config/pm/runtime.h) \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/device.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/device.h \
     $(wildcard include/config/dmabounce.h) \
   include/linux/pm_wakeup.h \
   include/linux/sched.h \
@@ -497,17 +497,17 @@ deps_drivers/video/samsung/s3cfb.o := \
     $(wildcard include/config/have/unstable/sched/clock.h) \
     $(wildcard include/config/debug/stack/usage.h) \
     $(wildcard include/config/group/sched.h) \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/cputime.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/cputime.h \
   include/asm-generic/cputime.h \
   include/linux/sem.h \
   include/linux/ipc.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/ipcbuf.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/sembuf.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/ipcbuf.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/sembuf.h \
   include/linux/signal.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/signal.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/signal.h \
   include/asm-generic/signal-defs.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/sigcontext.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/siginfo.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/sigcontext.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/siginfo.h \
   include/asm-generic/siginfo.h \
   include/linux/proportions.h \
   include/linux/percpu_counter.h \
@@ -518,7 +518,7 @@ deps_drivers/video/samsung/s3cfb.o := \
   include/linux/plist.h \
     $(wildcard include/config/debug/pi/list.h) \
   include/linux/resource.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/resource.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/resource.h \
   include/asm-generic/resource.h \
   include/linux/hrtimer.h \
     $(wildcard include/config/high/res/timers.h) \
@@ -536,7 +536,7 @@ deps_drivers/video/samsung/s3cfb.o := \
   include/linux/uio.h \
   include/linux/mount.h \
   include/linux/backlight.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/io.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/io.h \
   arch/arm/mach-s5p6442/include/mach/io.h \
   include/linux/ctype.h \
   include/linux/dma-mapping.h \
@@ -546,8 +546,8 @@ deps_drivers/video/samsung/s3cfb.o := \
   include/linux/bug.h \
   include/linux/scatterlist.h \
     $(wildcard include/config/debug/sg.h) \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/scatterlist.h \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/dma-mapping.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/scatterlist.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/dma-mapping.h \
   include/asm-generic/dma-coherent.h \
     $(wildcard include/config/have/generic/dma/coherent.h) \
   include/linux/interrupt.h \
@@ -557,7 +557,7 @@ deps_drivers/video/samsung/s3cfb.o := \
     $(wildcard include/config/virt/cpu/accounting.h) \
   include/linux/ftrace_irq.h \
     $(wildcard include/config/ftrace/nmi/enter.h) \
-  /root/Bureaublad/g3kernelfroyo/Kernel/arch/arm/include/asm/hardirq.h \
+  /root/Bureaublad/RubyMod/Kernel/arch/arm/include/asm/hardirq.h \
   include/linux/irq_cpustat.h \
   include/linux/platform_device.h \
   include/linux/io.h \
@@ -606,7 +606,7 @@ deps_drivers/video/samsung/s3cfb.o := \
     $(wildcard include/config/gpiolib.h) \
     $(wildcard include/config/gpio/sysfs.h) \
     $(wildcard include/config/have/gpio/lib.h) \
-  drivers/video/samsung/android_logo_rgb16.h \
+  drivers/video/samsung/rubymod.h \
   drivers/video/samsung/s3cfb.h \
   arch/arm/plat-s5p/include/plat/fb.h \
     $(wildcard include/config/fb/s3c.h) \
